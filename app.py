@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn
 
 
 st.header('Jamboree Prediction Model with :blue[Linear Regression]', divider='rainbow')
@@ -36,6 +35,7 @@ research = st.radio(
     ["Yes", "No"],)
 
 research_encode = {'Yes':1, 'No':0}
+
 
 def tr_model(GRE_score, TOEFL_score, University_Rating, SOP, LOR, CGPA, research ):
    with open('Transform_model.pkl','rb') as file:

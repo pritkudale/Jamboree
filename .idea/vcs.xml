@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Linear-Regression---Jamboree-Admission-predition" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jamboree_git/JuneFlask" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jamboree_git/jamboree_deploy" vcs="Git" />
   </component>
