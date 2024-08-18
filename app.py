@@ -7,6 +7,7 @@ st.header('Jamboree Prediction Model with :blue[Linear Regression]', divider='ra
 
 col1, col2 = st.columns(2)
 
+
 with col1:
    GRE_score = st.slider("What is your GRE score?", 0, 340, 315)
 
