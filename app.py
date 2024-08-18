@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-
 st.header('Jamboree Prediction Model with :blue[Linear Regression]', divider='rainbow')
 
 col1, col2 = st.columns(2)
