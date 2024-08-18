@@ -48,24 +48,15 @@ def reg_model(X):
         lr_model = pickle.load(filename)
         return lr_model.predict(X)
 
-def nn_model(X):
-   with open('NN_model.pkl','rb') as filename:
-        nn_model = pickle.load(filename)
-        return nn_model.predict(X)
 
 if st.button("Predict"):
     research = research_encode[research]
     X= tr_model(GRE_score, TOEFL_score, University_Rating, SOP, LOR, CGPA, research)
     #st.write(X)
     price=reg_model(X)
-    st.write('Prediction with Linear Regression model')
     st.write(price)
-    st.write('Prediction with Neural Network model')
-    nnprice = nn_model(X)
-    st.write(nnprice)
 
 st.subheader(':blue[Data Insights]', divider='rainbow')
 df=pd.read_csv('Jamboree_Admission.csv')
 st.write(df)
-
 
