@@ -12,6 +12,9 @@ The main objective of this case study is to determine the probability of a stude
 - Detecting missing values.
 - Generating a statistical summary of the data.
 - Building a predictive model.
+## Access deployed model
+
+App deployed on https://jamboree-prit.streamlit.app/
 
 ## Installation
 
